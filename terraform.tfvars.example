@@ -1,0 +1,17 @@
+# Copia este archivo como terraform.tfvars y pon tu ID real.
+# terraform.tfvars NO se sube a GitHub (está en .gitignore).
+subscription_id = "00000000-0000-0000-0000-000000000000"
+
+environment = "qa"
+
+# En el lab 2 te funcionó northcentralus. Si quieres probar México: "mexicocentral"
+location = "northcentralus"
+
+# Debe ser ÚNICO en todo Azure: cambia el final por tu nombre o matrícula
+web_app_name = "app-utvt-integradora-web-qa-ncus-alberto"
+
+tags = {
+  managed_by  = "terraform"
+  owner       = "it"
+  cost_center = "integradora"
+}
